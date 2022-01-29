@@ -43,7 +43,7 @@ const playbtn = document.querySelector("#play");
 
 playbtn.addEventListener("click", async() =>{
   let media = await window.navigator.mediaDevices.getUserMedia({
-    audio: false,
+    audio: true,
     video: true,
   });
   vidioElement.srcObject = media;
