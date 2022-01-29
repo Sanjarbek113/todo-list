@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+.container{
+    margin: 0 auto;
+    width: 1140px;
+}
+.main{
+    margin-top: 20px;
+}
+input{
+    height: 30px;
+    padding: 10px;
+    color: white;
+    background-color: darkgray;
+    border: none;
+}
+.input-btn{
+    height: 30px;
+    width: 90px;
+}
+.box{
+    display: flex;
+    justify-content: flex-start;
+    border: 1px solid blueviolet;
+    width: fit-content;
+    margin-top: 30px;
+    padding: 10px;
+}
+.box-list{
+    font-size: 20px;
+    padding: 3px 10px;
+    margin: 10px 10px;
+}
+
+.holatLi-btn{
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: darkslategrey;
+    color: lightgrey;
+    border: none;
+}
+li{
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: 5px;
+}
+
