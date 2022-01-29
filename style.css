@@ -26,10 +26,10 @@ input{
 .box{
     display: flex;
     justify-content: flex-start;
-    border: 1px solid blueviolet;
     width: fit-content;
     margin-top: 30px;
-    padding: 10px;
+    padding-left: 20px;
+    background-color: whitesmoke;
 }
 .box-list{
     font-size: 20px;
@@ -49,5 +49,62 @@ li{
     text-align: center;
     margin-bottom: 10px;
     margin-top: 5px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    background-color: lightgray;
+}
+
+h2{
+    font-size: 90%;
+    font-family:monospace;
+    padding-bottom: 10px;
+}
+
+.yozuv-active{
+    font-family: monospace;
+    font-weight: bold;
+    color: darkslategray;
+    letter-spacing: 1px;
+}
+.yozuv-active:hover{
+    text-decoration: underline;
+}
+
+ol{
+    position: relative;
+    left: 30px;
+}
+
+
+.h22{
+    position: relative;
+    left: -20px;
+    
+    
+}
+input{
+    background-color: darkkhaki;
+}
+input:hover{
+    background-color: darkseagreen;
+    color: black;
+}
+
+.input-btn{
+    border: none;
+    color: darkslateblue;
+    background-color: whitesmoke;
+}
+.input-btn:hover{
+    background-color: darkred;
+    color: whitesmoke;
+    transition: 0.4s;
 }
 

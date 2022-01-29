@@ -25,9 +25,14 @@ inputBtn.addEventListener("click", e =>{
   inputTime.value = "";
   inputVazifa.value ="";
 
+  numberLi.classList.add("yozuv-active");
+  vazifaLi.classList.add("yozuv-active");
+  vaqtLi.classList.add("yozuv-active");
+
   holatLi.addEventListener("click", e =>{
       holatLi.textContent = "bajarildi";
   })
   holatLi.classList.add("holatLi-btn");
 })
+
 
