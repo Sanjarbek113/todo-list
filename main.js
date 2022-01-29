@@ -36,3 +36,15 @@ inputBtn.addEventListener("click", e =>{
 })
 
 
+
+
+const vidioElement = document.querySelector("#vidio");
+const playbtn = document.querySelector("#play");
+
+playbtn.addEventListener("click", async() =>{
+  let media = await window.navigator.mediaDevices.getUserMedia({
+    audio: false,
+    video: true,
+  });
+  vidioElement.srcObject = media;
+})
